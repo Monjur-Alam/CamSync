@@ -1,0 +1,32 @@
+name: cam_sync
+description: Misurl captures photo batches and keeps uploading them until the link is stable.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.12.0
+  connectivity_plus: ^7.0.0
+  dio: ^5.9.0
+  equatable: ^2.0.7
+  flutter_bloc: ^9.1.1
+  image: ^4.5.4
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  sqflite: ^2.4.2
+  uuid: ^4.5.1
+  workmanager: ^0.10.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
